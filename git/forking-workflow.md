@@ -7,6 +7,7 @@ Each contributer has two Git repos:
 * upstream: public server-side repo
 
 Process:
+Central repo is forked and cloned once. After that, update local repo then update upstream.
 1. fork the official repo
 * select 'fork' option in GitHub
 2. clone this forked repo onto local machine
@@ -24,5 +25,5 @@ Process:
 8. Check for updates from upstream repo
 * `git fetch upstream`
 9. Get updates from upstream repo
-* `git pull`
+* `git pull upstream`
 
